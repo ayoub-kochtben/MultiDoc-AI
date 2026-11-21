@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@custom-variant dark (@media (prefers-color-scheme: dark));
+
+@theme {
+  --font-sans: "Segoe UI Variable Text", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "Cascadia Code", "Cascadia Mono", Consolas, ui-monospace, monospace;
+  --color-accent-50: oklch(0.97 0.02 265);
+  --color-accent-100: oklch(0.93 0.04 265);
+  --color-accent-500: oklch(0.58 0.19 265);
+  --color-accent-600: oklch(0.51 0.2 265);
+  --color-accent-700: oklch(0.45 0.19 265);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased dark:bg-slate-950 dark:text-slate-100;
+}
+
+/* Markdown answers */
+.prose-answer p { @apply my-2 leading-relaxed; }
+.prose-answer ul { @apply my-2 list-disc pl-5; }
+.prose-answer ol { @apply my-2 list-decimal pl-5; }
+.prose-answer li { @apply my-0.5; }
+.prose-answer strong { @apply font-semibold; }
+.prose-answer code { @apply rounded bg-slate-100 px-1 py-0.5 font-mono text-[0.85em] dark:bg-slate-800; }
+.prose-answer pre { @apply my-2 overflow-x-auto rounded-lg bg-slate-900 p-3 text-slate-100; }
+.prose-answer table { @apply my-2 w-full border-collapse text-sm; }
+.prose-answer th, .prose-answer td { @apply border border-slate-200 px-2 py-1 text-left dark:border-slate-700; }
+.prose-answer th { @apply bg-slate-100 dark:bg-slate-800; }
+.prose-answer h1, .prose-answer h2, .prose-answer h3 { @apply mt-3 mb-1 font-semibold; }
+
+.scrollbar-thin { scrollbar-width: thin; }
+
+@keyframes blink { 50% { opacity: 0; } }
+.caret::after { content: "▍"; animation: blink 1s steps(1) infinite; @apply ml-0.5 text-accent-500; }

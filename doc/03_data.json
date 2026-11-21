@@ -1,0 +1,30 @@
+{
+  "company": "NOVA TECH",
+  "departments": [
+    {
+      "name": "Développement",
+      "manager": "Youssef Trabelsi",
+      "employees": 16
+    },
+    {
+      "name": "Support",
+      "manager": "Meriem Haddad",
+      "employees": 10
+    },
+    {
+      "name": "Commercial",
+      "manager": "Karim Gharbi",
+      "employees": 8
+    },
+    {
+      "name": "Administration",
+      "manager": "Nadia Mansour",
+      "employees": 8
+    }
+  ],
+  "security": {
+    "mfa_required": true,
+    "password_min_length": 12,
+    "backup_frequency": "daily"
+  }
+}

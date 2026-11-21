@@ -1,0 +1,9 @@
+NOVA TECH — Profil de l'entreprise
+NOVA TECH est une entreprise fictive créée en 2018 à Sfax, en Tunisie.
+Elle développe des solutions logicielles pour les PME.
+Son siège se trouve au 12 rue des Jasmins, Sfax.
+La directrice générale est Salma Ben Ali.
+L'entreprise compte 42 employés.
+Le produit principal est NovaDesk, une plateforme de gestion de support client.
+Le prix de NovaDesk Pro est de 120 dinars tunisiens par utilisateur et par an.
+Le support standard est disponible du lundi au vendredi, de 08:00 à 17:00.

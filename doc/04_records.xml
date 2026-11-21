@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders>
+  <order id="ORD-1001"><customer>Amine K.</customer><product>NovaDesk Pro</product><quantity>3</quantity><unit_price_tnd>120</unit_price_tnd><status>Paid</status></order>
+  <order id="ORD-1002"><customer>Leila S.</customer><product>NovaDesk Pro</product><quantity>5</quantity><unit_price_tnd>120</unit_price_tnd><status>Pending</status></order>
+  <order id="ORD-1003"><customer>Hotel Medina</customer><product>NovaDesk Pro</product><quantity>2</quantity><unit_price_tnd>120</unit_price_tnd><status>Paid</status></order>
+</orders>
